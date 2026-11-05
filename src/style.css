@@ -3,6 +3,18 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-bg: #F0F4F8;
+  --color-bg-button: #008BFE;
+  --color-button: #FFFFFF;
+  --font: "Roboto", sans-serif;
 }
 
+body {
+  font-family: var(--font);
+  background: var(--color-bg);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
 
